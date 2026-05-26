@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repiit - Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="Erhal.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="bar">
+      <div class="nav-logo">
+        <img src="./media/rep.png" height="40px" width="100px" alt="Repiit Logo">
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search by product name or category">
+        <select>
+          <option>All Categories</option>
+          <option>Electronics</option>
+          <option>Clothes</option>
+          <option>Shoes</option>
+        </select>
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <!-- Hamburger button (mobile only) -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><i class="fa-solid fa-house"></i><br>Home</li>
+        <li><i class="fa-solid fa-cart-shopping"></i><br>Cart</li>
+        <li><i class="fa-solid fa-heart"></i><br>Wishlist</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <div class="container">
+
+      <!-- TOP BAR / LITTLE NAVBAR -->
+      <div class="topbar">
+        <input type="text" placeholder="Shopping by Categories" class="bg-white">
+        <ul>
+          <li>Mens</li>
+          <li>Womens</li>
+          <li>Kids</li>
+          <li>Accessories</li>
+          <li>Blogs</li>
+          <li>About us</li>
+        </ul>
+      </div>
+
+      <!-- CONTENT SECTION -->
+      <div class="content">
+        <div class="box image-box">
+          <img src="./media/d8780dff9cb2640c2b41cf76b171c68d4e93c1b4.png" alt="Hero Image">
+        </div>
+        <div class="box text-box">
+          <div class="promo-text">
+            <span class="green-text">Seasonal Picks</span>
+            <h2>Collections</h2>
+            <p class="offer">upto 60% OFF</p>
+          </div>
+          <div class="btn-main">
+            <button class="btn1">Shop Now</button>
+            <button class="btn2">Read More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section">
+      <div class="parentIII">
+        <div class="bala">
+          <i class="fas fa-truck"></i>
+          <h2>Free Shipping</h2>
+          <p>No extra cost your order ships free.</p>
+        </div>
+        <div class="bala">
+          <i class="fas fa-credit-card"></i>
+          <h2>Flexible Payment</h2>
+          <p>Smart deals made to fit your budget.</p>
+        </div>
+        <div class="bala">
+          <i class="fas fa-headset"></i>
+          <h2>24/7 Support</h2>
+          <p>We're here anytime you need us.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORY CIRCLES -->
+    <div class="parentIV">
+      <div class="circle-item ch6"></div>
+      <div class="circle-item ch7"></div>
+      <div class="circle-item ch8"></div>
+      <div class="circle-item ch9"></div>
+      <div class="circle-item ch10"></div>
+      <div class="circle-item ch11"></div>
+      <div class="circle-item ch12"></div>
+      <div class="circle-item ch13"></div>
+      <div class="circle-item ch14"></div>
+      <div class="circle-item ch15"></div>
+      <div class="circle-item ch16"></div>
+    </div>
+
+    <!-- COLLECTION SECTION -->
+    <div class="complex">
+      <div class="Ladle">
+        <div class="lad1">
+          <div class="pc1"></div>
+        </div>
+        <div class="lad2">
+          <div class="pc2"></div>
+        </div>
+        <div class="lad3">
+          <div class="lad4">
+            <div class="pict1">
+              <p class="subtitle">Accessories Collection</p>
+              <h1 class="title">Timeless Accessories<br>For Mens</h1>
+              <button class="cta-button">Check Now</button>
+            </div>
+            <div class="pict2">
+              <img src="./media/54.png" alt="accessories">
+            </div>
+          </div>
+          <div class="lad5">
+            <div class="pict3">
+              <p class="subtitle">Shoes Collection</p>
+              <h1 class="title">Timeless Shoes<br>For Mens</h1>
+              <button class="cta-button">Check Now</button>
+            </div>
+            <div class="pict4">
+              <img src="./media/sh.png" alt="shoes">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MEGA SALE -->
+    <div class="mega-sale">
+      <h2>Mega Sale</h2>
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/krt.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Styled Traditions Kurta</h3>
+          <div class="price">
+            <span class="discount">Rs.25,950</span>
+            <span class="original">Rs.30,750</span>
+          </div>
+          <div class="stock">90 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/shoes.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Classic Black Leather Shoes</h3>
+          <div class="price">
+            <span class="discount">Rs.5,950</span>
+            <span class="original">Rs.7,200</span>
+          </div>
+          <div class="stock">88 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/hod.jpg');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Bold Red Hoodie</h3>
+          <div class="price">
+            <span class="discount">Rs.5,650</span>
+            <span class="original">Rs.6,800</span>
+          </div>
+          <div class="stock">86 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/purs.jpg');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Signature Carry Set</h3>
+          <div class="price">
+            <span class="discount">Rs.15,250</span>
+            <span class="original">Rs.20,600</span>
+          </div>
+          <div class="stock">86 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/gls.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Urban Glow Sunglasses</h3>
+          <div class="price">
+            <span class="discount">Rs.1,750</span>
+            <span class="original">Rs.2,300</span>
+          </div>
+          <div class="stock">35 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/bt.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Classic Leather Wallet</h3>
+          <div class="price">
+            <span class="discount">Rs.2,450</span>
+            <span class="original">Rs.3,950</span>
+          </div>
+          <div class="stock">60 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/frk.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Floral Charm Frock</h3>
+          <div class="price">
+            <span class="discount">Rs.9,650</span>
+            <span class="original">Rs.8,400</span>
+          </div>
+          <div class="stock">70 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/wtc.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Blue Heritage Watch</h3>
+          <div class="price">
+            <span class="discount">Rs.5,250</span>
+            <span class="original">Rs.6,500</span>
+          </div>
+          <div class="stock">100 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/ear.png');"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Golden Glow Earrings</h3>
+          <div class="price">
+            <span class="discount">Rs.1,350</span>
+            <span class="original">Rs.1,850</span>
+          </div>
+          <div class="stock">100 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/hnn.png'); background-position: center 20%;"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Kashmiri Pashmina Kurta</h3>
+          <div class="price">
+            <span class="discount">Rs.30,290</span>
+            <span class="original">Rs.20,490</span>
+          </div>
+          <div class="stock">45 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/ob.png'); background-position: center 30%;"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Zari Woven Angrakha</h3>
+          <div class="price">
+            <span class="discount">Rs.25,199</span>
+            <span class="original">Rs.35,899</span>
+          </div>
+          <div class="stock">32 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-image" style="background-image: url('./media/bb3.png'); background-position: center 35%;"></div>
+        <div class="card-body">
+          <span class="collection-tag">Collection</span>
+          <h3 class="product-title">Cotton Dhoti Kurta Set</h3>
+          <div class="price">
+            <span class="discount">Rs.1,950</span>
+            <span class="original">Rs.2,690</span>
+          </div>
+          <div class="stock">68 in Stock</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEAL BANNER -->
+    <div class="banner">
+      <div class="deal-banner">
+        <span class="deal-label">Deals of The Day: Ends In</span>
+        <div class="timer">
+          <div class="time-block">
+            <span class="number" id="days">221</span>
+            <span class="label">Days</span>
+          </div>
+          <span class="colon">:</span>
+          <div class="time-block">
+            <span class="number" id="hours">13</span>
+            <span class="label">Hours</span>
+          </div>
+          <span class="colon">:</span>
+          <div class="time-block">
+            <span class="number" id="mins">19</span>
+            <span class="label">Mins</span>
+          </div>
+          <span class="colon">:</span>
+          <div class="time-block">
+            <span class="number" id="secs">11</span>
+            <span class="label">Sec</span>
+          </div>
+        </div>
+        <a href="#" class="claim-link">Claim This Offer Now</a>
+      </div>
+    </div>
+
+    <!-- BIG SALE TIMER SECTION -->
+    <div class="parentVII">
+      <div class="boy21"></div>
+      <div class="boy22">
+        <div class="ch29">
+          <h1>Big Sale</h1>
+          <h4>The Best Collection of The Week</h4>
+          <div class="timing">
+            <div class="timing-block">
+              <span class="number">221</span>
+              <span class="label">Days</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timing-block">
+              <span class="number">13</span>
+              <span class="label">Hours</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timing-block">
+              <span class="number">19</span>
+              <span class="label">Mins</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timing-block">
+              <span class="number">11</span>
+              <span class="label">Sec</span>
+            </div>
+          </div>
+        </div>
+        <button class="n">Shop The Collections</button>
+      </div>
+    </div>
+
+    <!-- FOLLOW US HEADING -->
+    <div class="bar5">
+      <div class="gh1"><h2>Follow us</h2></div>
+      <div class="gh2"><h1>Follow Us On Instagram</h1></div>
+    </div>
+
+    <!-- INSTAGRAM GRID -->
+    <section>
+      <div class="parentIX">
+        <div class="ph3"></div>
+        <div class="ph4"></div>
+        <div class="ph5">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="ph6"></div>
+        <div class="ph7"></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS HEADING -->
+    <div class="bar6">
+      <div class="gh2"><h2>Follow us</h2></div>
+      <div class="gh2"><h1>What Our Client Says</h1></div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="parentX">
+      <div class="ch32">
+        <div class="ph8"></div>
+        <div class="text2">
+          <p>From the moment I placed my order to the final unboxing, everything felt thoughtfully handled. The product quality speaks for itself — elegant, well-crafted, and exactly as shown. It's rare to find an online store that balances design, service, and reliability this well.</p>
+        </div>
+        <div class="stars">★★★★★</div>
+        <div class="c"><h2>Emily Harper</h2></div>
+        <div class="cc"><h5>Visual Merchandiser</h5></div>
+      </div>
+      <div class="ch33">
+        <div class="ph9"></div>
+        <div class="text3">
+          <p>The craftsmanship and design of the watch are truly impressive. It offers a refined, minimalist aesthetic while maintaining a premium feel on the wrist. The ordering experience was seamless, delivery was timely, and the product arrived in elegant, secure packaging.</p>
+        </div>
+        <div class="stars">★★★★★</div>
+        <div class="d"><h2>Omar Latif</h2></div>
+        <div class="dd"><h5>Marketing Manager</h5></div>
+      </div>
+      <div class="ch34">
+        <div class="ph10"></div>
+        <div class="text4">
+          <p>I recently purchased a handbag set from this store, and I must say, the quality exceeded my expectations. The material, finish, and packaging were all top-notch. The delivery was fast and smooth, and I appreciated the regular order updates.</p>
+        </div>
+        <div class="stars">★★★★★</div>
+        <div class="e"><h2>Sophia Khan</h2></div>
+        <div class="ee"><h5>Creative Consultant</h5></div>
+      </div>
+    </div>
+
+    <!-- BLOGS HEADING -->
+    <div class="bar7">
+      <div class="gh3"><h2>News & Blogs</h2></div>
+      <div class="gh4"><h1>Our Latest News & Blogs</h1></div>
+    </div>
+
+    <!-- BLOGS -->
+    <div class="parentXI">
+      <div class="card-item">
+        <div class="ph11"></div>
+        <div class="card-text">
+          <h1>5 Fashion Picks You Can't Miss This Season</h1>
+          <p>Discover the latest trends in women's wear — from pastel tones to bold accessories.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="card-item">
+        <div class="ph12"></div>
+        <div class="card-text">
+          <h1>How To Look Good Without Trying Too Hard</h1>
+          <p>Effortless upgrades for your everyday look — using just a few key pieces.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="card-item">
+        <div class="ph13"></div>
+        <div class="card-text">
+          <h1>Behind The Scenes: How We Pack Your Orders</h1>
+          <p>A closer look at the care and quality checks we follow before your parcel arrives.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ HEADING -->
+    <div class="bar8">
+      <div class="gh5"><h2>FAQS</h2></div>
+      <div class="gh6"><h1>Questions? Look Here</h1></div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="parentXII">
+      <div class="faq-item"><div class="faq-row"><p>How can I return or exchange a product?</p><i class="fa-solid fa-plus fa-lg"></i></div></div>
+      <div class="faq-item"><div class="faq-row"><p>When will I receive my order?</p><i class="fa-solid fa-plus fa-lg"></i></div></div>
+      <div class="faq-item"><div class="faq-row"><p>Do you offer cash on delivery (COD)?</p><i class="fa-solid fa-plus fa-lg"></i></div></div>
+      <div class="faq-item"><div class="faq-row"><p>Is the product exactly like the picture shown?</p><i class="fa-solid fa-plus fa-lg"></i></div></div>
+      <div class="faq-item"><div class="faq-row"><p>How do I know what size to order?</p><i class="fa-solid fa-plus fa-lg"></i></div></div>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <div class="parentXIII">
+      <div class="text8">
+        <h3>Our Newsletter</h3>
+        <h1>Subscribe to Our Newsletter to Get<br>Updates to Our Latest Collections</h1>
+        <h4>Sign up now and unlock 50% OFF on selected collections.</h4>
+        <div class="be">
+          <div class="input-wrapper">
+            <div class="icon-circle"><i class="fa-regular fa-envelope"></i></div>
+            <input type="text" placeholder="Enter Email Address">
+          </div>
+          <button class="sub-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="Cont">
+        <div class="f1">
+          <div class="rep">
+            <img src="./media/pt.png" alt="Repiit">
+          </div>
+          <p>At Repiit, we offer timeless fashion and everyday style — carefully selected and delivered with care. From essentials to accessories, everything is designed to make you feel confident and stylish.</p>
+          <div class="social-icons">
+            <a href="#" class="icon-btn instagram" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" ry="6" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="icon-btn facebook" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M17 2h-3a5 5 0 0 0-5 5v3H6v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#" class="icon-btn youtube" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="13" rx="4" stroke="currentColor" stroke-width="2"/><polygon points="10,9.5 10,14.5 15,12" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="icon-btn twitter" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </a>
+            <a href="#" class="icon-btn pinterest" aria-label="Pinterest">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.598-.299-1.482c0-1.388.806-2.428 1.808-2.428.853 0 1.267.641 1.267 1.408 0 .858-.546 2.141-.828 3.33-.236.995.499 1.806 1.476 1.806 1.771 0 3.135-1.866 3.135-4.561 0-2.387-1.715-4.055-4.163-4.055-2.837 0-4.5 2.126-4.5 4.325 0 .856.329 1.774.741 2.274a.3.3 0 0 1 .069.285c-.076.313-.244.995-.277 1.134-.044.183-.146.222-.337.134C5.67 15.56 5 13.76 5 12.018 5 8.83 7.418 5.9 11.984 5.9 15.68 5.9 18.5 8.473 18.5 12c0 3.965-2.499 7.153-5.965 7.153-1.165 0-2.263-.606-2.638-1.32l-.717 2.676c-.26.999-.963 2.25-1.434 3.013.541.167 1.11.258 1.703.258 5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="f2">
+          <h1>Company</h1>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="f3">
+          <h1>Customer Services</h1>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Track your Order</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="f4">
+          <h1>Our Information</h1>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+            <li><a href="#">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="f5">
+          <h1>Contact Info</h1>
+          <ul>
+            <li><a href="#">+92345-678-910</a></li>
+            <li><a href="#">service@email.com</a></li>
+            <li><a href="#">789 Market Road, Hyderabad, Pakistan</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="nine">
+        <p>© 2025 Repiit. All rights reserved. Crafted with care for timeless fashion.</p>
+        <p>Language: English | Currency: PKR</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
